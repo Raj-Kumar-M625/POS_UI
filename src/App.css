@@ -1,0 +1,122 @@
+
+
+
+a {
+    text-decoration: none;
+}
+
+.squareCard {
+    background-color:#c88df2;
+    color:black
+}
+
+.rectangleCard {
+color: black;
+}
+
+.rectangleCard:hover {
+  background-color: rgb(237, 233, 233);
+  color:blue
+}
+
+.hoverEffect:hover {
+    background: #b86af0;
+    color:white 
+}
+
+.download {
+   background: #00D775;
+   color:white
+}
+
+.tableStyle {
+    font-weight: 500 !important;
+    font-size: 16px !important;
+}
+
+.MuiDataGrid-row:hover,
+.MuiDataGrid-cell:hover {
+    background-color: transparent !important;
+}
+
+.MuiDataGrid-cell:focus,
+.MuiDataGrid-cell:focus-within,
+.MuiDataGrid-row:focus .MuiDataGrid-cell,
+.MuiDataGrid-row:focus-within .MuiDataGrid-cell {
+    background-color: transparent !important;
+    outline: none !important;
+}
+
+
+.selected-row {
+    background-color: transparent !important;
+    outline: none !important;
+}
+
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+*{font-family: 'Product Sans'; 
+}
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root{
+    height:60vh;
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper::-webkit-scrollbar {
+    display: none;
+}
+
+.shadow {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+            rgba(14, 30, 37, 0.2) 0px 2px 16px 0px;
+}
+
+
+.ui-tooltip,
+.arrow:after {
+    background: black;
+    border: 2px solid white;
+}
+
+.ui-tooltip {
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    font: bold 14px"Helvetica Neue", Sans-Serif;
+    text-transform: uppercase;
+    box-shadow: 0 0 7px black;
+}
+
+.text-dec {
+    text-decoration: none;
+}
+
+/* 
+.sc-hHLcUO{
+    overflow: scroll;
+} */
+
+.popup::-webkit-scrollbar {
+    display: none;
+}
+
+.rdt_Table > .sc-kgfleI{
+  display: flex;
+  width: 90vw;
+  justify-content: center;
+}
+.swal2-container{
+    z-index: 9999 !important;
+}
+
+.custom_zindex {
+    z-index: 100;
+    /* or 999 */
+}
+
+

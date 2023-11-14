@@ -1,0 +1,68 @@
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-auto-rows: 40vh 40vh;
+  justify-content: center;
+}
+
+.item {
+  border: none;
+  position: relative;
+  border-radius: 4px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.2) 0px 2px 16px 0px;
+}
+
+.item button {
+  font-size: 9px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 80%;
+    grid-auto-rows: 45vh;
+    justify-content: center;
+    grid-auto-flow: row;
+  }
+}
+
+.scroll {
+  overflow-x: hidden;
+}
+
+.scroll::-webkit-scrollbar:horizontal {
+  height: 0;
+  width: 0;
+  display: none;
+}
+
+.scroll::-webkit-scrollbar:horizontal {
+  display: none;
+}
+
+
+.item1 {
+  border: none;
+  position: relative;
+  border-radius: 4px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.2) 0px 2px 16px 0px;
+}
+
+.item1 button {
+  font-size: 9px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 36% 36% 36%;
+  grid-auto-rows: 70vh;
+  justify-content: center;
+}

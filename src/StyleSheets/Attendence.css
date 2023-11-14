@@ -1,0 +1,34 @@
+.main {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-auto-rows: 24vh;
+    justify-content: space-evenly;
+}
+
+.card {
+    border: none;
+    position: relative;
+    font-size: 4rem;
+    border-radius: 4px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+        rgba(14, 30, 37, 0.2) 0px 2px 16px 0px;
+}
+
+
+
+.card button {
+    font-size: 9px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        display: grid;
+        grid-template-columns: 80%;
+        grid-auto-rows: 45vh;
+        justify-content: center;
+        grid-auto-flow: row;
+    }
+}

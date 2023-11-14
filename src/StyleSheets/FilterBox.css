@@ -1,0 +1,20 @@
+.accordianHeader {
+    border: none !important;
+    margin-bottom: 10px !important;
+}
+
+.accordion{
+    width: 90vw;
+}
+
+.accordianButton {
+    background: #0e73df !important;
+    color: white !important;
+    border-radius: 8px 8px 0px 0px !important;
+}
+
+.accordianChildren {
+    border: 3px solid #0d6fd6 !important;
+    border-radius: 0px 8px 8px 8px !important;
+    padding: 2rem;
+}

@@ -1,0 +1,185 @@
+.emp-det-box {
+  width: 92vw;
+  height: 50vh;
+  margin: 28px auto;
+  border-radius: 4px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(126, 219, 224,0.6);
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.4) 0px 2px 16px 0px;
+}
+
+.userstory-box {
+  width: 92vw;
+  height: 20vh;
+  margin: 28px auto;
+  border-radius: 4px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(126, 219, 224,0.6);
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.4) 0px 2px 16px 0px;
+}
+
+
+.flex-1 {
+  width: 18em;
+  height: 10em;
+  border-radius: 8px;
+  color: rgb(48, 10, 22);
+  border: 1px solid rgb(148, 168, 219);
+  background-color: rgb(31, 222, 235);
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.2) 0px 2px 16px 0px;
+}
+
+.icon {
+  background-color: rgb(202, 237, 239);
+  border-radius: 50%;
+}
+
+.input1,
+.input2,
+.input3,
+.time {
+  background-color: rgba(251, 251, 251, 0.5);
+  height: 2.5rem;
+  text-align: center;
+  border-radius: 2px;
+  padding: 6px;
+  border: 1px solid rgb(174, 171, 237);
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.2) 0px 2px 16px 0px;
+}
+
+.input1 {
+  width: max-content;
+}
+
+.input3 {
+  width: max-content;
+}
+
+.input2 {
+  width: max-content;
+}
+
+.time {
+  width: 8rem;
+}
+
+.flex-2 {
+  width: 24em;
+  height: 10em;
+  border-radius: 8px;
+  background-color: rgb(238, 242, 241);
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.2) 0px 2px 16px 0px;
+}
+
+
+
+.width {
+  width: 24em;
+}
+
+.width-1 {
+  width: 20em;
+}
+
+.danger {
+    background-color: rgb(229, 58, 20);
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+            rgba(14, 30, 37, 0.2) 0px 2px 16px 0px;
+        padding: 8px;
+        color: rgb(247, 248, 247);
+        border-radius: 8px;
+}
+
+.success {
+  background-color: rgb(20, 229, 20);
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.2) 0px 2px 16px 0px;
+  padding: 8px;
+  color: rgb(247, 248, 247);
+  border-radius: 8px;
+}
+
+.secondary{
+  
+  background-color:#6c757d;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.2) 0px 2px 16px 0px;
+    padding: 8px;
+    color: rgb(247, 248, 247);
+    border-radius: 8px;
+}
+
+.emp-atte-his {
+  width: 92vw;
+  height: 80vh;
+  margin: 20px auto 16rem auto;
+  border-radius: 4px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(126, 219, 224,0.5);;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.4) 0px 2px 16px 0px;
+    
+}
+
+.emp-atte-hiss {
+  width: 92vw;
+  height: 72vh;
+  margin: 20px auto 16rem auto;
+  border-radius: 4px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(126, 219, 224,0.1);;
+  overflow-y: scroll;
+    
+}
+
+.emp-atte-his::-webkit-scrollbar {
+    display: none;
+}
+
+.flex-3 {
+  width: 24em;
+  height: 17em;
+  border-radius: 8px;
+  background-color: rgb(238, 242, 241);
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.2) 0px 2px 16px 0px;
+}
+
+.Completed {
+  background-color: rgb(20, 229, 20);
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.2) 0px 2px 16px 0px;
+  padding: 8px;
+  color: rgb(247, 248, 247);
+  border-radius: 8px;
+}
+
+.Pending  {
+  background-color: rgb(229, 58, 20);
+      box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+          rgba(14, 30, 37, 0.2) 0px 2px 16px 0px;
+      padding: 8px;
+      color: rgb(247, 248, 247);
+      border-radius: 8px;
+}
+.InProgress {
+  background-color: rgb(229, 58, 20);
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.2) 0px 2px 16px 0px;
+  padding: 8px;
+  color: rgb(247, 248, 247);
+  border-radius: 8px;
+}
+.Active {
+  background-color: rgb(20, 229, 20);
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.2) 0px 2px 16px 0px;
+  padding: 8px;
+  color: rgb(247, 248, 247);
+  border-radius: 8px;
+}

@@ -1,0 +1,19 @@
+.project-list{
+position: absolute;
+top: 40%;
+left:50%;
+transform: translate(-50%, -50%);
+width: 60vw;
+height: 40vh;
+background-color: white;
+border: none;
+box-shadow: 24;
+margin: 8px;
+padding: 4px;
+border-radius:8px ;
+}
+
+#modal-modal-title{
+    font-weight: 700;
+}
+

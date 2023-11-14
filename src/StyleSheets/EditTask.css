@@ -1,0 +1,33 @@
+/* CSS styles */
+.fs-4 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.fs-3 {
+  font-size: 2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.info-label {
+  font-weight: bold;
+}
+
+.info-value {
+  color: #17a2b8;
+  font-weight: bold;
+}
+.read-only-input {
+  background-color: #f0f0f0; /* Set the background color for read-only TextField */
+}

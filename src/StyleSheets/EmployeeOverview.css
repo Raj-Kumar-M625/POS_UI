@@ -1,0 +1,8 @@
+.emp-over-cont{
+    height:80vh;
+    margin-bottom: 4rem;
+}
+
+.emp-over-cont::-webkit-scrollbar {
+    display: none;
+}
